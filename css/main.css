@@ -133,7 +133,7 @@ body header nav ul li a:hover{
 .txt-two, .txt-three {
     margin-top: 50px;
 }
-img {
+.secondSection img {
     margin-top: 150px;
     margin-right: 150px;
     width: 500px;
@@ -234,7 +234,7 @@ footer .blocks{
     outline: 1px solid red;
     float: left;
     display: inline-block;
-    height: 500px;
+    height: 400px;
     width: 70%;
 }
 footer .first{
@@ -257,6 +257,13 @@ footer div h4 a{
 }
 
 footer .social div img{
-    width: 90px;
+    width: 80px;
     height: 40px;
+}
+footer .social div:first-child{
+    margin-top: 150px;
+}
+footer hr{
+    width: 70%;
+    text-align: center;
 }
