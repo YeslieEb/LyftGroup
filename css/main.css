@@ -119,7 +119,7 @@ body header nav ul li a:hover{
 }
 .secondSection .contenedor{
     margin-top: 150px;
-    margin-left: 150px;
+    margin-left: 120px;
     float: left;
 }
 .secondSection div h1 {
@@ -134,7 +134,7 @@ body header nav ul li a:hover{
     margin-top: 50px;
 }
 .secondSection img {
-    margin-top: 150px;
+   margin-top: 150px;
     margin-right: 150px;
     width: 500px;
     height:500px;
@@ -224,6 +224,7 @@ footer{
     height: 500px;
     width: 100%;
     background-color: #333447;
+    padding-left: 150px;
 }
 footer .first, .second, .third {
     margin-top: 150px;
@@ -231,15 +232,12 @@ footer .first, .second, .third {
 }
 footer .blocks{
     margin-left: 100px;
-    outline: 1px solid red;
     float: left;
     display: inline-block;
     height: 400px;
     width: 70%;
 }
-footer .first{
-    
-}
+
 footer div h1{
     font-size: 20px;
     margin: 20px;
@@ -256,14 +254,36 @@ footer div h4 a{
     text-decoration: none;
 }
 
+footer .social{
+    width: 100px;
+    height: 250px;
+    float: right;
+    margin-top: 50px;
+    margin-right:180px;
+}
 footer .social div img{
     width: 80px;
     height: 40px;
 }
 footer .social div:first-child{
-    margin-top: 150px;
+    margin-top: 130px;
 }
 footer hr{
     width: 70%;
+    border: 2px solid white;
+    margin-left: 100px;
+}
+footer .icons{
+    width: 12%;
+    height: 10%;
+    color: white;
     text-align: center;
+    margin-left: 420px;
+    margin-top: 20px;
+}
+footer .icons i{
+    border:2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
 }
